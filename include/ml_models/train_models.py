@@ -11,3 +11,4 @@ class ModelTrainer:
 
         self.model_config = self.config["models"]
         self.training_config = self.config["training"]
+        self.mlflow_manager = MLflowManager(config_path)
