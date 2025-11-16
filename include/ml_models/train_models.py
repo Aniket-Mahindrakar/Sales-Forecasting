@@ -1,6 +1,7 @@
 import yaml
 
 from utils.mlflow_utils import MLflowManager
+from data_validation.validators import DataValidator
 from feature_engineering.feature_pipeline import FeatureEngineer
 
 
@@ -13,3 +14,4 @@ class ModelTrainer:
         self.training_config = self.config["training"]
         self.mlflow_manager = MLflowManager(config_path)
         self.feature_engineer = FeatureEngineer(config_path)
+        self.data_validator = DataValidator(config_path)
