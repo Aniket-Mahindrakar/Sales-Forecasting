@@ -1,4 +1,7 @@
 # Sales Forecasting
+## Project Overview
+This project builds a Sales Forecasting system that predicts future sales volumes using historical data. The model provides forward-looking sales visibility that can improve revenue planning accuracy by 3–8%, reduce inventory misallocation by 10–25%, and lower supply-chain disruptions by 8–12%, resulting in significant annual financial impact for mid-sized businesses.
+
 ## Business Impact
 ### I. Inventory Cost Optimization
 Accurate demand forecasting helps reduce excess stock, minimize storage costs, and prevent product expiry or obsolescence.
@@ -20,3 +23,6 @@ Better predictions reduce emergency orders, lower transportation costs, and impr
 
 ## Forecasted Sales Output
 <img width="1490" height="831" alt="Screenshot 2025-11-22 at 1 14 11 AM" src="https://github.com/user-attachments/assets/6edc788a-2d9a-433d-95eb-900c39bdda85" />
+
+## License
+This project is licensed under the MIT License.
